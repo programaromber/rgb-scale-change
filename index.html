@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body id="resultado">
+    <form>
+      <div class="container-fluid" style="border: 1; background-color: white;">
+        <table class="table">
+          <caption>
+            Rafael Salles:
+            <a href="https://www.linkedin.com/in/rafasall/" target="_blank"
+              >https://www.linkedin.com/in/rafasall/</a
+            >
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col" colspan="3"><h1>RGB SCALE CHANGE</h1></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><strong>(R) RED:</strong></th>
+              <td>
+                <input
+                  type="range"
+                  style="width: 200px;"
+                  min="0"
+                  max="255"
+                  value="0"
+                  id="seletorR"
+                />
+                <input
+                  type="number"
+                  id="valorR"
+                  style="width: 50px;"
+                  size="5"
+                  disabled
+                  value="0"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row"><strong>(G) GREEN:</strong></th>
+              <td>
+                <input
+                  type="range"
+                  style="width: 200px;"
+                  min="0"
+                  max="255"
+                  value="0"
+                  id="seletorG"
+                />
+                <input
+                  type="number"
+                  id="valorG"
+                  style="width: 50px;"
+                  size="5"
+                  disabled
+                  value="0"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row"><strong>(B) BLUE:</strong></th>
+              <td>
+                <input
+                  type="range"
+                  style="width: 200px;"
+                  min="0"
+                  max="255"
+                  value="0"
+                  id="seletorB"
+                />
+                <input
+                  type="number"
+                  id="valorB"
+                  style="width: 50px;"
+                  size="5"
+                  disabled
+                  value="0"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
