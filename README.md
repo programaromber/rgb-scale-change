@@ -1,8 +1,5 @@
 "# rgb-scale-change" 
 
-Aplicação criada para desafio do bootcamp no Instituto de Gestão e Tecnologia da Informação (IGTI). 
+Project wiht Html, Css and Javascript for Bootcampo Full Stack Aplicação (IGTI). 
 
-O intuito é criar com HTML, CSS, JS uma SPA para gerar RGB colors e renderizar em uma div.
-
-
-![enter image description here](https://ibb.co/2s3NLMY)
+![enter image description here](https://i.ibb.co/dL4g3pJ/rgb-scale-change.png)
